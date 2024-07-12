@@ -5,3 +5,35 @@ main {
     display: inline-block;
     width: 100%;
 }
+div {
+    float: left;}
+main > div:nth-child(1) {
+    margin-top: 100px;
+    margin-left: 100px;
+    font-size: 60px;
+    width: 96%;  }
+main > div:nth-child(2) {
+    width: 14%;
+    margin-right: 0%;
+    margin-top: 8%;
+    margin-left: 29%; }
+main > div:nth-child(3) {
+    width: 18%;
+    margin-top: 7%;
+    margin-left: 10%;}
+h1 { 
+    font-size: 360px;
+    color: blue;
+    margin-top: 0;
+    margin-bottom: 0;}
+main > div:nth-child(3) > p:nth-child(2) {
+    font-size: 30px;
+    margin-top: 0;}
+main > div:nth-child(3) > p:nth-child(3) {
+    font-size: 25px;
+    color: gray;}
+a {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    margin-right: 40px;}
