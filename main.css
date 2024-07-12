@@ -1,17 +1,17 @@
 main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    width: 100%;
+    width: 2500px;
     background-color: white;
     display: inline-block;
-    width: 100%;
+    margin-left: calc((100% - 2500px) / 2);
 }
 div {
     float: left;}
 main > div:nth-child(1) {
-    margin-top: 100px;
-    margin-left: 100px;
+    margin-top:  50px;
+    margin-left: 50px;
     font-size: 60px;
-    width: 96%;  }
+    width: 100%;}
 main > div:nth-child(2) {
     width: 14%;
     margin-right: 0%;
